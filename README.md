@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Showcase Website
+
+This project is a dynamic and interactive website designed to showcase a collection of cars. It provides a sleek and modern user interface for viewing detailed information about various vehicles. Built with responsiveness in mind, it offers a smooth experience across different devices.
+
+## Features
+
+- **Responsive Design**: The website is fully responsive and works seamlessly on desktops, tablets, and mobile devices.
+- **Car Catalog**: Users can browse through a collection of cars, view images, and read detailed descriptions.
+- **Search and Filter**: Users can search for cars based on specific attributes like make, model, year, or price range.
+- **Admin Panel**: Includes a section for adding, editing, and deleting car listings.
+
+## Technologies Used
+
+- **HTML5**: For the structure of the website.
+- **CSS3**: Styling with a focus on modern, responsive layouts.
+- **JavaScript**: Adds interactivity to the user interface.
+- **Bootstrap**: Ensures a mobile-first design approach with a grid system and pre-styled components.
+- **Node.js**: Backend for managing the website’s functionality (if applicable).
+- **Express.js**: Handles routing and middleware (if used).
+- **MongoDB/MySQL**: Database for storing car data (replace with appropriate technology).
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Before running the project, make sure you have the following installed:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Node.js** (if applicable)
+- **MongoDB/MySQL** (or any other database if used)
+- **Git**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
 
-## Learn More
+   ```bash
+   git clone https://github.com/ConnorSapphire/car-showcase-website.git
+   cd car-showcase-website
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install the necessary dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Start the development server:
 
-## Deploy on Vercel
+   ```bash
+   npm start
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   The website should now be running at `http://localhost:3000` (or your specified port).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Usage
+
+- Access the car catalog and browse available listings.
+- Use the search and filter options to narrow down your choices.
+- Admins can log in and manage car listings through the admin panel.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your proposed changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
